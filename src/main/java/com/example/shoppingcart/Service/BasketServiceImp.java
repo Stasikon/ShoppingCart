@@ -18,8 +18,9 @@ public class BasketServiceImp implements BasketService {
         this.items = new ArrayList<>();
     }
     @Override
-    public Item add(Integer item){
-        return new Item(new Item(item).setItem());
+    public Item add(Integer item) {
+        items.add(new Item(item));
+        return null;
     }
 
     @Override

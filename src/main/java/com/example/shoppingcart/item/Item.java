@@ -7,7 +7,7 @@ public class Item {
         this.item = item;
     }
 
-    public Integer setItem() {
+    public Integer getItem() {
         return item;
     }
     @Override
